@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "VCNL3020-GS08")(type "Legacy")(uri "${KIPRJMOD}/VCNL3020-GS08.lib")(options "")(descr ""))
+  (lib (name "STM8S003F3P6")(type "Legacy")(uri "${KIPRJMOD}/STM8S003F3P6.lib")(options "")(descr ""))
+  (lib (name "LD1117V33")(type "Legacy")(uri "${KIPRJMOD}/LD1117V33.lib")(options "")(descr ""))
 )
