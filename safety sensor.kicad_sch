@@ -1707,6 +1707,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3ee69b24-3eef-4c93-b12d-5f64e586fba8)
   )
+  (wire (pts (xy 149.86 67.31) (xy 153.67 67.31))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 4027a655-82c8-49ce-a396-815fafb871da)
+  )
   (wire (pts (xy 106.68 161.29) (xy 106.68 157.48))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 42587e10-1bde-4db6-a87e-956dae649f99)
@@ -2459,6 +2463,20 @@
     (pin "1" (uuid 0c73bbf3-43c6-400c-963f-83a6a3f2114b))
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 158.75 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 880751c1-2174-42b0-a015-b89b331b6e99)
+    (property "Reference" "J6" (id 0) (at 158.75 71.12 0))
+    (property "Value" "Conn_01x01" (id 1) (at 158.75 73.66 0))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 158.75 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 158.75 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5f89ef01-3b86-4f36-bde2-96570e79bb3f))
+  )
+
   (symbol (lib_id "Device:C") (at 49.53 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8836b26c-b642-4703-89fe-f3c905b529bc)
@@ -2934,6 +2952,9 @@
     )
     (path "/9b2e425c-55fe-41d8-9c54-e65e6238c5c6"
       (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/880751c1-2174-42b0-a015-b89b331b6e99"
+      (reference "J6") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/5f77b1fe-0a0b-49db-825a-edda5840d9b2"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
